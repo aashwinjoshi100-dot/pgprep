@@ -1,4 +1,4 @@
-allowed_host =[*]
+ALLOWED_HOSTS = ["*"]
 """
 Django settings for config project.
 
@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-7os35#ji-$@5--$9_iw2g=s6y*=)5tawfpdc_i8efio#!h#4f6'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [*]
 
 
 # Application definition
