@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Result</title>
+</head>
+<body>
+    <h1>Exam Result 🎉</h1>
+
+    <h2>Your Score: {{ score }} / {{ total }}</h2>
+
+    {% if score >= 1 %}
+        <p>Pass ✅</p>
+    {% else %}
+        <p>Fail ❌</p>
+    {% endif %}
+
+    <a href="/quiz/">Try Again</a>
+</body>
+</html>
